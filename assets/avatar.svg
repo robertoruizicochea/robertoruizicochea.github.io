@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280" role="img" aria-label="ER monogram">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f5135"/>
+      <stop offset="100%" stop-color="#2f7a4f"/>
+    </linearGradient>
+    <clipPath id="circle">
+      <circle cx="140" cy="140" r="140"/>
+    </clipPath>
+  </defs>
+  <!-- Circular forest-green field -->
+  <circle cx="140" cy="140" r="140" fill="url(#bg)"/>
+  <g clip-path="url(#circle)">
+    <!-- Soft radial highlight -->
+    <circle cx="95" cy="85" r="90" fill="#3a8f5e" opacity="0.22"/>
+
+    <!-- Stylized forest / tree line (silhouette, bottom third) -->
+    <g fill="#163d28" opacity="0.55">
+      <!-- distant hills -->
+      <path d="M0 210 C40 195 70 200 100 188 C130 176 150 190 180 182 C210 174 240 188 280 178 L280 280 L0 280 Z"/>
+    </g>
+    <g fill="#0f2e1d" opacity="0.75">
+      <!-- fir / canopy silhouettes -->
+      <path d="M28 248 L48 188 L68 248 Z"/>
+      <path d="M52 248 L78 168 L104 248 Z"/>
+      <path d="M90 248 L118 178 L146 248 Z"/>
+      <path d="M130 248 L162 158 L194 248 Z"/>
+      <path d="M178 248 L208 172 L238 248 Z"/>
+      <path d="M218 248 L242 190 L266 248 Z"/>
+      <!-- ground -->
+      <rect x="0" y="246" width="280" height="34"/>
+    </g>
+
+    <!-- Subtle network nodes (data) — mid left -->
+    <g stroke="#c8e0d0" stroke-width="1.5" fill="#e8f4ec" opacity="0.55">
+      <line x1="48" y1="72" x2="78" y2="58"/>
+      <line x1="78" y1="58" x2="98" y2="86"/>
+      <line x1="48" y1="72" x2="70" y2="98"/>
+      <line x1="70" y1="98" x2="98" y2="86"/>
+      <line x1="98" y1="86" x2="118" y2="64"/>
+      <circle cx="48" cy="72" r="3.5"/>
+      <circle cx="78" cy="58" r="3"/>
+      <circle cx="98" cy="86" r="3.5"/>
+      <circle cx="70" cy="98" r="2.5"/>
+      <circle cx="118" cy="64" r="2.5"/>
+    </g>
+
+    <!-- Small line chart (data) — upper right -->
+    <g opacity="0.5">
+      <polyline fill="none" stroke="#c8e0d0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+        points="188,98 202,88 214,92 228,72 242,78 256,58"/>
+      <g fill="#e8f4ec">
+        <circle cx="188" cy="98" r="2.5"/>
+        <circle cx="202" cy="88" r="2.5"/>
+        <circle cx="214" cy="92" r="2.5"/>
+        <circle cx="228" cy="72" r="2.5"/>
+        <circle cx="242" cy="78" r="2.5"/>
+        <circle cx="256" cy="58" r="2.5"/>
+      </g>
+    </g>
+
+    <!-- ER monogram -->
+    <text x="140" y="158" font-family="Georgia, 'Times New Roman', serif" font-size="92" font-weight="700"
+      fill="#ffffff" text-anchor="middle" letter-spacing="2">ER</text>
+    <!-- thin underline accent under letters -->
+    <line x1="78" y1="172" x2="202" y2="172" stroke="#9fbfab" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  </g>
+  <!-- subtle rim -->
+  <circle cx="140" cy="140" r="138" fill="none" stroke="#9fbfab" stroke-width="3" opacity="0.35"/>
+</svg>
